@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" type="text/css" charset="utf-8" />
+
+    <style>
+        body {
+            width: 1920px;
+            height: 1080px;
+            font-family: 'dm_sansregular';
+            background-image: url("assets/Notion\ Day\ Agenda.png");
+            background-size: cover;
+            color: #273D69;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.dashed {
+            list-style-type: none;
+        }
+
+        ul.dashed>li:before {
+            content: "- ";
+        }
+
+        #curr_date {
+            font-family: 'dm_sansbold';
+            color: white;
+            width: 521px;
+        }
+
+        #curr_date h1 {
+            position: absolute;
+            font-size: 90px;
+            top: 170px;
+            left: 155px;
+            margin: 0;
+        }
+
+        #curr_date h2 {
+            position: absolute;
+            font-size: 22px;
+            top: 280px;
+            left: 155px;
+            margin: 0;
+        }
+
+        #month_title {
+            width: 474px;
+            position: absolute;
+            top: 427px;
+            left: 201px;
+        }
+
+        #month_title h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+
+        #month_dates_text {
+            font-family: "nanumgothiccodingregular";
+            font-size: 38px;
+            height: 427px;
+            width: 511px;
+            line-height: 2;
+            position: absolute;
+            top: 550px;
+            left: 190px;
+        }
+
+        .empty {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        #name,
+        #category,
+        #priority,
+        #time {
+            font-family: 'dm_sansmedium';
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 205px;
+            height: 722px;
+        }
+
+        #name {
+            left: 860px;
+            width: 385px;
+        }
+
+        #category {
+            left: 1300px;
+            width: 150px;
+        }
+
+        #priority {
+            left: 1473px;
+            width: 140px;
+        }
+
+        #time {
+            left: 1630px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="curr_date">
+        <h1>August 4</h1>
+        <h2>Thursday</h2>
+    </div>
+    <div id="month_title">
+        <h1>August</h1>
+    </div>
+    <div id="month_dates_text">
+        <p style="margin:0;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;6<br>
+            &nbsp;7&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;10&nbsp;&nbsp;11&nbsp;&nbsp;12&nbsp;&nbsp;13<br>
+            14&nbsp;&nbsp;15&nbsp;&nbsp;16&nbsp;&nbsp;17&nbsp;&nbsp;18&nbsp;&nbsp;19&nbsp;&nbsp;20<br>
+            21&nbsp;&nbsp;22&nbsp;&nbsp;23&nbsp;&nbsp;24&nbsp;&nbsp;25&nbsp;&nbsp;26&nbsp;&nbsp;27<br>
+            28&nbsp;&nbsp;29&nbsp;&nbsp;30&nbsp;&nbsp;31&nbsp;&nbsp;<br>
+        </p>
+    </div>
+    <div id="name">
+        <ul class="dashed">
+            <li>Name 1</li>
+            </br></br>
+            <li>Name 2</li>
+            </br></br>
+            <li>Name 3</li>
+            </br></br>
+        </ul>
+    </div>
+    <div id="category">
+        <ul class="empty">
+            <li>Category 1</li>
+            </br></br>
+            <li>Category 2</li>
+            </br></br>
+            <li>Category 3</li>
+            </br></br>
+        </ul>
+    </div>
+    <div id="priority">
+        <ul class="empty">
+            <li>Priority 1</li>
+            </br></br>
+            <li>Priority 2</li>
+            </br></br>
+            <li>Priority 3</li>
+            </br></br>
+        </ul>
+    </div>
+    <div id="time">
+        <ul class="empty">
+            <li>Time 1</li>
+            </br></br>
+            <li>Time 2</li>
+            </br></br>
+            <li>Time 3</li>
+            </br></br>
+        </ul>
+    </div>
+
+</body>
+
+</html>
