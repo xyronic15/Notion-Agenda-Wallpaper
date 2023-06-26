@@ -6,7 +6,7 @@ import * as cron from "node-cron";
 // var for old tasks to check if the new call makes any changes
 var oldTasks;
 
-// schedule to call every 10 seconds
+// schedule to call every 5 seconds
 cron.schedule("*/5 * * * * *", async () => {
   var hasChange = false;
 
